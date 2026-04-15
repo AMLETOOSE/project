@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+
+<style>
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#0f1011;
+color:white;
+}
+
+header{
+text-align:center;
+padding:10px;
+font-size:32px;
+font-weight:bold;
+background: rgba(0,0,0,0.6);
+backdrop-filter: blur(10px);
+}
+
+nav{
+position: sticky;
+display:flex;
+justify-content:center;
+gap:20px;
+padding:7px;
+top:0px;
+z-index:1000;
+background: rgba(0,0,0,0.4);
+padding:5px;
+text-align:center;
+backdrop-filter: blur(10px)
+}
+
+nav a{
+color:#ffd700;
+margin:15px;
+text-decoration:none;
+font-size:18px;
+}
+
+q1{
+color:#ffd700;
+background:black;
+display:inline-block;
+padding:10px 18px;
+border-radius:8px;
+border:2px solid #333;
+cursor:pointer;
+transition:0.2s;
+}
+
+/* эффект при наведении */
+q1:hover{
+background:#111;
+border-color:#ffd700;
+}
+
+/* эффект нажатия */
+q1:active{
+transform:scale(0.95);
+background:#000;
+border-color:#fff;
+}
+
+q2{
+color:#ffd700;
+background:black;
+display:inline-block;
+padding:10px 18px;
+border-radius:8px;
+border:2px solid #333;
+cursor:pointer;
+transition:0.2s;
+}
+
+/* эффект при наведении */
+q2:hover{
+background:#111;
+border-color:#ffd700;
+}
+
+/* эффект нажатия */
+q2:active{
+transform:scale(0.95);
+background:#000;
+border-color:#fff;
+}
+
+q3{
+color:#ffd700;
+background:black;
+display:inline-block;
+padding:10px 18px;
+border-radius:8px;
+border:2px solid #333;
+cursor:pointer;
+transition:0.2s;
+}
+
+/* эффект при наведении */
+q3:hover{
+background:#111;
+border-color:#ffd700;
+}
+
+/* эффект нажатия */
+q3:active{
+transform:scale(0.95);
+background:#000;
+border-color:#fff;
+}
+
+q4{
+color:#ffd700;
+background:black;
+display:inline-block;
+padding:10px 18px;
+border-radius:8px;
+border:2px solid #333;
+cursor:pointer;
+transition:0.2s;
+}
+
+/* эффект при наведении */
+q4:hover{
+background:#111;
+border-color:#ffd700;
+}
+
+/* эффект нажатия */
+q4:active{
+transform:scale(0.95);
+background:#000;
+border-color:#fff;
+}
+
+q5{
+color:#ffd700;
+background:black;
+display:inline-block;
+padding:10px 18px;
+border-radius:8px;
+border:2px solid #333;
+cursor:pointer;
+transition:0.2s;
+}
+
+/* эффект при наведении */
+q5:hover{
+background:#111;
+border-color:#ffd700;
+}
+
+/* эффект нажатия */
+q5:active{
+transform:scale(0.95);
+background:#000;
+border-color:#fff;
+}
+
+q6{
+color:#ffd700;
+background:black;
+display:inline-block;
+padding:10px 18px;
+border-radius:8px;
+border:2px solid #333;
+cursor:pointer;
+transition:0.2s;
+}
+
+/* эффект при наведении */
+q6:hover{
+background:#111;
+border-color:#ffd700;
+}
+
+/* эффект нажатия */
+q6:active{
+transform:scale(0.95);
+background:#000;
+border-color:#fff;
+}
+
+q7{
+color:#ffd700;
+background:black;
+display:inline-block;
+padding:10px 18px;
+border-radius:8px;
+border:2px solid #333;
+cursor:pointer;
+transition:0.2s;
+}
+
+/* эффект при наведении */
+q7:hover{
+background:#111;
+border-color:#ffd700;
+}
+
+/* эффект нажатия */
+q7:active{
+transform:scale(0.95);
+background:#000;
+border-color:#fff;
+}
+
+section{
+padding:40px;
+max-width:900px;
+margin:auto;
+}
+
+h2{
+color:#ffd700;
+}
+
+.card{
+background:#1c1c1c;
+padding:20px;
+margin:15px 0;
+border-radius:10px;
+transition:0.3s;
+}
+.card:hover{
+transform: translateY(-5px);
+background: rgba(255,255,255,0.1);
+}
+
+footer{
+background:#000;
+text-align:center;
+padding:15px;
+margin-top:40px;
+}
+
+h2{
+color:#ffd700;
+background:black;
+display:inline-block;
+padding:10px 18px;
+border-radius:8px;
+border:2px solid #333;
+cursor:pointer;
+transition:0.2s;
+}
+
+/* эффект при наведении */
+h2:hover{
+background:#111;
+border-color:#ffd700;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<p style="font-family: 'Arial', serif;">Роль кино в современном обществе 🎥</p>
+</header>
+
+<nav>
+<q1><a href="#about">Что такое кино</a></q1>
+<q2><a href="#history">Первые фильмы</a></q2>
+<q7><a href="#j">Жанры</a></q7>
+<q3><a href="#impact">Влияние</a></q3>
+<q4><a href="#benefit">Польза</a></q4>
+<q5><a href="#harm">Вред</a></q5>
+<q6><a href="#films">Фильмы</a></q6>
+</nav>
+
+<section id="about">
+<h2>Что такое кино</h2>
+<div class="card">
+Кино — это вид искусства, который передает информацию с помощью изображения, звука и сюжета.
+Фильмы помогают людям отдыхать, узнавать новое и понимать окружающий мир. Кино обладает уникальной способностью погружать зрителя в иные реальности: оно может перенести нас в далёкое прошлое или фантастическое будущее, показать жизнь в другой стране или в непривычных обстоятельствах. Благодаря этому фильмы становятся мощным инструментом
+</div>
+</section>
+
+<section id="history">
+<h2>Первые фильмы</h2>
+<div class="card">
+Первые фильмы появились более 100 лет назад и были черно-белыми и без звука.<br>
+Самым первым сохранившимся фильмом считается «Сцена в саду Раундхэя» (1888) Луи Ле Принса, длящаяся всего пару секунд.
+</div>
+</section>
+
+
+<section id="j">
+<h2>Самые популярные жанры</h2>
+<div class="card">
+<ul>
+<li>Комедия</li>
+<li>Драма</li>
+<li>Фантастика</li>
+<li>Ужасы</li>
+<li>Боевик</li>
+<li>Документальное</li>
+</ul>
+</div>
+</section>
+
+<section id="impact">
+<h2>Влияние кино на общество</h2>
+<div class="card">
+Кино влияет на взгляды людей, их интересы и поведение.
+Герои фильмов часто становятся примером для подражания.
+</div>
+</section>
+
+<section id="benefit">
+<h2>Польза кино</h2>
+<div class="card">
+<ul>
+<li>Развивает воображение</li>
+<li>Помогает узнавать новое</li>
+<li>Учит дружбе и ответственности</li>
+<li>Расширяет кругозор</li>
+</ul>
+</div>
+</section>
+
+<section id="harm">
+<h2>Возможный вред кино</h2>
+<div class="card">
+<ul>
+<li>Зависимость от просмотра</li>
+<li>Искажение реальности</li>
+<li>Психологическое воздействие(стресс, тревога, страх),</li>
+</ul>
+</div>
+</section>
+
+<section id="films">
+<h2>Рекомендуемые фильмы</h2>
+
+<div class="card">
+<b>1+1</b><br>
+<br>
+Фильм о дружбе и взаимопомощи.<br>
+<br>
+<img src="1+1.jpg"/>
+</div>
+
+<div class="card">
+<b>Гарри Поттер</b><br>
+<br>
+История о добре, смелости и дружбе.<br>
+<br>
+<img src="potter.png"/>
+</div>
+
+<div class="card">
+<b>Король Лев</b><br>
+<br>
+Фильм о ответственности и семье.<br>
+<br>
+<img src="lev.png"/>
+</div>
+
+<div class="card">
+<b>ВАЛЛ-И</b><br>
+<br>
+Показывает проблему экологии.<br>
+<br>
+<img src="walle.png"/>
+</div>
+
+<div class="card">
+<b>Чудо</b><br>
+<br>
+Учит уважению к людям.<br>
+<br>
+<img src="wonder.png"/>
+</div>
+
+</section>
+
+<footer>
+© 2026
+</footer>
+
+</body>
+</html>

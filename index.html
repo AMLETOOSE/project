@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
 body{
@@ -255,6 +256,35 @@ background:#111;
 border-color:#ffd700;
 }
 
+  /* 📱 АДАПТИВ ДЛЯ ТЕЛЕФОНОВ */
+@media (max-width: 600px) {
+
+nav {
+flex-wrap: wrap;
+gap: 8px;
+}
+
+nav a {
+font-size: 14px;
+margin: 5px;
+}
+
+section {
+padding: 20px 15px;
+}
+
+header {
+font-size: 22px;
+}
+
+}
+
+/* чтобы картинки не ломали экран */
+img {
+max-width: 100%;
+height: auto;
+}
+  
 </style>
 
 </head>
